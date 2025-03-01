@@ -37,6 +37,28 @@ p{
     text-transform: uppercase;
 }
 
+.attention{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.button{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin: auto;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
 .attention-p{
     font-size: 1.8rem;
     color: #BEBEBE;
@@ -112,7 +134,7 @@ li{
 .wanted-wrapper{
     margin-top: 50px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /* ovo */
     align-items: center;
     flex-direction: row;
 }
@@ -187,6 +209,18 @@ li{
 
     p{
         font-size: 2rem;
+    }
+
+    .attention{
+        display:block;
+        padding-bottom: 50px;
+    }
+    
+    .button{
+        border-radius: 12px;
+        margin: auto;
+        padding: 15px 20px;
+        margin-top: 10px;
     }
 
     p.description{
