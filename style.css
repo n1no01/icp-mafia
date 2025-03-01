@@ -28,7 +28,7 @@ body{
 
 .p-header{
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-weight: bold;
 }
 
@@ -63,7 +63,6 @@ p{
     font-size: 1.8rem;
     color: #BEBEBE;
     text-transform: none;
-    margin-bottom: 30px;
 }
 
 img{
